@@ -12,7 +12,7 @@ href="">here</a>.
 ### Windows
 - GitHub Account
 - Git Commands for Command-Line usage
-- Java 7
+- Java 11 or higher
 - Windows OS
 - Google Chrome
 - Visual Studio Code
@@ -24,7 +24,7 @@ I apologize. I only have access to the Windows platform. Coming soon...
 Clone the source locally:
 
 ```sh
-$ git clone https://github.com/ComputerScience2FinalProject/GitHub-Automation/
+$ git clone https://github.com/Aking618/GitHub-Automation/
 $ cd GitHub-Automation
 ```
 
@@ -46,15 +46,9 @@ Ex:
 fakePassword
 ---
 
-This program runs from the command line.
-
-```sh
-$ java Create
-```
----
 **Two-Factor Authentication must be disabled.** 
 
-This program will work unless the GitHub account used is recognized by the device and the user is logged in to the GitHub account in the Command-Line. When the user is logged on in both of those places, GitHub-Automation will work.
+This program will not work unless the GitHub account used is recognized by the device and the user is logged in to the GitHub account in the Command-Line. When the user is logged on in both of those places, GitHub-Automation will work. If not logged in, the user can log into the services then restart the program.
 
 <p align="center">
     <img src="images\Command_Line_login.png" width="350px" alt="Command Line Login"/>
@@ -63,7 +57,20 @@ This program will work unless the GitHub account used is recognized by the devic
 </p>
 
 
+___
+
+This program runs from the command line. Make sure you are in the root directory "GitHub-Automation"
+
+```sh
+$ java -jar target/github-automation-1.0.0.jar
+$ "Type desired repo name without spaces and press "Enter"
+```
+---
+
+
+
 ## Built With
+- [Apache Maven](http://maven.apache.org/)
 - [Selenium](https://selenium.dev)
 
 # Authors
