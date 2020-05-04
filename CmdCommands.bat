@@ -1,8 +1,8 @@
 @echo off
 cd /
-mkdir pleasepleasework
-cd pleasepleasework
+mkdir godtest
+cd godtest
 git init
-git remote add origin https://github.com/username/filename.git
+git remote add origin https://github.com/Aking618/godtest.git
 git pull origin master
 code .
