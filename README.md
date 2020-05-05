@@ -86,7 +86,7 @@ $ [.........]
 Google Chrome will be opened, maximized, and navigated to the GitHub login page. The User info provided in UserCredentials.txt will be used to login. Next, a new, private repository will be created with desired name and with a README.md file included.
 </p>
 <p>
-This message will appear in the terminal. It does not impact the code or cause any error. "SEVERE" replaced the older version of Selenium's "WARNING". This message appears becuase there was more than a tenth of a second between actions.
+This message will appear in the terminal. It does not impact the code or cause any error. "SEVERE" replaced the older version of Selenium's "WARNING". This message appears because there was more than a tenth of a second between actions.
 </p>
 
 ```sh
