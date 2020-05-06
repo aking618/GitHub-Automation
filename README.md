@@ -15,7 +15,7 @@ href="">here</a>.
 - Java 11 or higher
 - Windows OS
 - Google Chrome 
-- Visual Studio Code
+- Visual Studio Code (Not required for the creation of the repository. This is my preferred text editor.)
 
 ### Linix or Mac
 I apologize. I only have access to the Windows platform. Coming soon...
