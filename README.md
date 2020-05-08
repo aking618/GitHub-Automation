@@ -72,7 +72,7 @@ $ java -jar target/github-automation-1.0.0.jar [create or delete] [fileName]
 ```
 ---
 
-####Create
+#### Create
 
 <p>
 Google Chrome will be opened, maximized, and navigated to the GitHub login page. The User info provided in UserCredentials.txt will be used to login. Next, a new, private repository will be created with desired name and with a README.md file included.
@@ -96,7 +96,7 @@ Finally, Visual Studio Code is opened in the local directory to begin the projec
 
 ---
 
-####Delete
+#### Delete
 
 <p>
 Google Chrome will be opened, maximized, and navigated to the GitHub login page. The User info provided in UserCredentials.txt will be used to login. Next, the page is navigated to the desired repository's settings page where it will be deleted.
