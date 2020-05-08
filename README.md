@@ -68,7 +68,7 @@ ___
 This program runs from the command line. Choose either "create" or "delete". Make sure you are in the root directory "GitHub-Automation"
 
 ```sh
-$ java -jar target/github-automation-1.0.0.jar [create or delete] [fileName]
+$ java -jar target/github-automation-1.1.0.jar [create or delete] [fileName]
 ```
 ---
 
