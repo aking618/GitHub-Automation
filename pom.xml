@@ -15,7 +15,7 @@
 
     <groupId>com.aking.app</groupId>
     <artifactId>github-automation</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
