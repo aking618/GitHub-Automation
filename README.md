@@ -2,7 +2,7 @@
 
 <h4 align="center">
     The GitHub Automater speeds up the process of starting new coding projects by creating a new repository 
-and linking it to a folder on your desktop. It even opens Visual Studio Code when it's finished!<br />This applications <em>DOES NOT</em> create a new GitHub Account, only a repository for an established account.</h4>
+and linking it to a folder on your desktop or deleting a current repository. It even opens Visual Studio Code when it's finished creating!<br />This applications <em>DOES NOT</em> create a new GitHub Account, only a repository for an established account.</h4>
 <h5 align="center">
     I plan on further improving this program with support for other web browsers as well as add encryption to UserCredentials to offer greater security.
 </h5>
@@ -65,10 +65,10 @@ fakePassword
 
 ___
 
-This program runs from the command line. Choose either "create" or "destroy". Make sure you are in the root directory "GitHub-Automation"
+This program runs from the command line. Choose either "create" or "delete". Make sure you are in the root directory "GitHub-Automation"
 
 ```sh
-$ java -jar target/github-automation-1.0.0.jar [create or destroy] [fileName]
+$ java -jar target/github-automation-1.0.0.jar [create or delete] [fileName]
 ```
 ---
 
@@ -96,7 +96,7 @@ Finally, Visual Studio Code is opened in the local directory to begin the projec
 
 ---
 
-####Destroy
+####Delete
 
 <p>
 Google Chrome will be opened, maximized, and navigated to the GitHub login page. The User info provided in UserCredentials.txt will be used to login. Next, the page is navigated to the desired repository's settings page where it will be deleted.
