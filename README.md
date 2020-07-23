@@ -14,7 +14,7 @@ and linking it to a folder on your desktop or deleting a current repository. It 
 - Git
 - Java 11 or higher
 - Windows OS
-- Google Chrome 
+- Google Chrome v84 (Make sure you have the latest version of Google Chrome)
 - Visual Studio Code (Not required for the creation of the repository. This is my preferred text editor.)
 
 ### Linix or Mac
